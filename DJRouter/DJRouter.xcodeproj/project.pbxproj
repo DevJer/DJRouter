@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2175C00C1CCC70F600D70CF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2175C00B1CCC70F600D70CF1 /* main.m */; };
+		2175C00F1CCC70F600D70CF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2175C00E1CCC70F600D70CF1 /* AppDelegate.m */; };
+		2175C0121CCC70F600D70CF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2175C0111CCC70F600D70CF1 /* ViewController.m */; };
+		2175C0171CCC70F600D70CF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2175C0161CCC70F600D70CF1 /* Assets.xcassets */; };
+		2175C0251CCC70F600D70CF1 /* DJRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2175C0241CCC70F600D70CF1 /* DJRouterTests.m */; };
+		2175C0301CCC70F600D70CF1 /* DJRouterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2175C02F1CCC70F600D70CF1 /* DJRouterUITests.m */; };
+		2175C0401CCC727900D70CF1 /* DJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2175C03F1CCC727900D70CF1 /* DJRouter.m */; };
+		2175C0431CCC80A700D70CF1 /* UIViewController+DJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2175C0421CCC80A700D70CF1 /* UIViewController+DJRouter.m */; };
+		2175C0461CCC9D9600D70CF1 /* DJPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2175C0451CCC9D9600D70CF1 /* DJPushViewController.m */; };
+		2175C0491CCC9DED00D70CF1 /* DJRouterInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2175C0481CCC9DED00D70CF1 /* DJRouterInit.m */; };
+		2175C04C1CCC9F0B00D70CF1 /* DJPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2175C04B1CCC9F0B00D70CF1 /* DJPresentViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2175C0211CCC70F600D70CF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2175BFFF1CCC70F600D70CF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2175C0061CCC70F600D70CF1;
+			remoteInfo = DJRouter;
+		};
+		2175C02C1CCC70F600D70CF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2175BFFF1CCC70F600D70CF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2175C0061CCC70F600D70CF1;
+			remoteInfo = DJRouter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2175C0071CCC70F600D70CF1 /* DJRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2175C00B1CCC70F600D70CF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2175C00D1CCC70F600D70CF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2175C00E1CCC70F600D70CF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2175C0101CCC70F600D70CF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2175C0111CCC70F600D70CF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2175C0161CCC70F600D70CF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2175C01B1CCC70F600D70CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2175C0201CCC70F600D70CF1 /* DJRouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJRouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2175C0241CCC70F600D70CF1 /* DJRouterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJRouterTests.m; sourceTree = "<group>"; };
+		2175C0261CCC70F600D70CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2175C02B1CCC70F600D70CF1 /* DJRouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJRouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2175C02F1CCC70F600D70CF1 /* DJRouterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJRouterUITests.m; sourceTree = "<group>"; };
+		2175C0311CCC70F600D70CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2175C03E1CCC727900D70CF1 /* DJRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJRouter.h; sourceTree = "<group>"; };
+		2175C03F1CCC727900D70CF1 /* DJRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJRouter.m; sourceTree = "<group>"; };
+		2175C0411CCC80A700D70CF1 /* UIViewController+DJRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DJRouter.h"; sourceTree = "<group>"; };
+		2175C0421CCC80A700D70CF1 /* UIViewController+DJRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DJRouter.m"; sourceTree = "<group>"; };
+		2175C0441CCC9D9600D70CF1 /* DJPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJPushViewController.h; sourceTree = "<group>"; };
+		2175C0451CCC9D9600D70CF1 /* DJPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJPushViewController.m; sourceTree = "<group>"; };
+		2175C0471CCC9DED00D70CF1 /* DJRouterInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJRouterInit.h; sourceTree = "<group>"; };
+		2175C0481CCC9DED00D70CF1 /* DJRouterInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJRouterInit.m; sourceTree = "<group>"; };
+		2175C04A1CCC9F0B00D70CF1 /* DJPresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJPresentViewController.h; sourceTree = "<group>"; };
+		2175C04B1CCC9F0B00D70CF1 /* DJPresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJPresentViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2175C0041CCC70F600D70CF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2175C01D1CCC70F600D70CF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2175C0281CCC70F600D70CF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2175BFFE1CCC70F600D70CF1 = {
+			isa = PBXGroup;
+			children = (
+				2175C0091CCC70F600D70CF1 /* DJRouter */,
+				2175C0231CCC70F600D70CF1 /* DJRouterTests */,
+				2175C02E1CCC70F600D70CF1 /* DJRouterUITests */,
+				2175C0081CCC70F600D70CF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2175C0081CCC70F600D70CF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2175C0071CCC70F600D70CF1 /* DJRouter.app */,
+				2175C0201CCC70F600D70CF1 /* DJRouterTests.xctest */,
+				2175C02B1CCC70F600D70CF1 /* DJRouterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2175C0091CCC70F600D70CF1 /* DJRouter */ = {
+			isa = PBXGroup;
+			children = (
+				2175C03D1CCC71F400D70CF1 /* source */,
+				2175C00D1CCC70F600D70CF1 /* AppDelegate.h */,
+				2175C00E1CCC70F600D70CF1 /* AppDelegate.m */,
+				2175C0101CCC70F600D70CF1 /* ViewController.h */,
+				2175C0111CCC70F600D70CF1 /* ViewController.m */,
+				2175C0471CCC9DED00D70CF1 /* DJRouterInit.h */,
+				2175C0481CCC9DED00D70CF1 /* DJRouterInit.m */,
+				2175C0441CCC9D9600D70CF1 /* DJPushViewController.h */,
+				2175C0451CCC9D9600D70CF1 /* DJPushViewController.m */,
+				2175C04A1CCC9F0B00D70CF1 /* DJPresentViewController.h */,
+				2175C04B1CCC9F0B00D70CF1 /* DJPresentViewController.m */,
+				2175C0161CCC70F600D70CF1 /* Assets.xcassets */,
+				2175C01B1CCC70F600D70CF1 /* Info.plist */,
+				2175C00A1CCC70F600D70CF1 /* Supporting Files */,
+			);
+			path = DJRouter;
+			sourceTree = "<group>";
+		};
+		2175C00A1CCC70F600D70CF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2175C00B1CCC70F600D70CF1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2175C0231CCC70F600D70CF1 /* DJRouterTests */ = {
+			isa = PBXGroup;
+			children = (
+				2175C0241CCC70F600D70CF1 /* DJRouterTests.m */,
+				2175C0261CCC70F600D70CF1 /* Info.plist */,
+			);
+			path = DJRouterTests;
+			sourceTree = "<group>";
+		};
+		2175C02E1CCC70F600D70CF1 /* DJRouterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2175C02F1CCC70F600D70CF1 /* DJRouterUITests.m */,
+				2175C0311CCC70F600D70CF1 /* Info.plist */,
+			);
+			path = DJRouterUITests;
+			sourceTree = "<group>";
+		};
+		2175C03D1CCC71F400D70CF1 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				2175C03E1CCC727900D70CF1 /* DJRouter.h */,
+				2175C03F1CCC727900D70CF1 /* DJRouter.m */,
+				2175C0411CCC80A700D70CF1 /* UIViewController+DJRouter.h */,
+				2175C0421CCC80A700D70CF1 /* UIViewController+DJRouter.m */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2175C0061CCC70F600D70CF1 /* DJRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2175C0341CCC70F600D70CF1 /* Build configuration list for PBXNativeTarget "DJRouter" */;
+			buildPhases = (
+				2175C0031CCC70F600D70CF1 /* Sources */,
+				2175C0041CCC70F600D70CF1 /* Frameworks */,
+				2175C0051CCC70F600D70CF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DJRouter;
+			productName = DJRouter;
+			productReference = 2175C0071CCC70F600D70CF1 /* DJRouter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2175C01F1CCC70F600D70CF1 /* DJRouterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2175C0371CCC70F600D70CF1 /* Build configuration list for PBXNativeTarget "DJRouterTests" */;
+			buildPhases = (
+				2175C01C1CCC70F600D70CF1 /* Sources */,
+				2175C01D1CCC70F600D70CF1 /* Frameworks */,
+				2175C01E1CCC70F600D70CF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2175C0221CCC70F600D70CF1 /* PBXTargetDependency */,
+			);
+			name = DJRouterTests;
+			productName = DJRouterTests;
+			productReference = 2175C0201CCC70F600D70CF1 /* DJRouterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2175C02A1CCC70F600D70CF1 /* DJRouterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2175C03A1CCC70F600D70CF1 /* Build configuration list for PBXNativeTarget "DJRouterUITests" */;
+			buildPhases = (
+				2175C0271CCC70F600D70CF1 /* Sources */,
+				2175C0281CCC70F600D70CF1 /* Frameworks */,
+				2175C0291CCC70F600D70CF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2175C02D1CCC70F600D70CF1 /* PBXTargetDependency */,
+			);
+			name = DJRouterUITests;
+			productName = DJRouterUITests;
+			productReference = 2175C02B1CCC70F600D70CF1 /* DJRouterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2175BFFF1CCC70F600D70CF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "郑中杰";
+				TargetAttributes = {
+					2175C0061CCC70F600D70CF1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					2175C01F1CCC70F600D70CF1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2175C0061CCC70F600D70CF1;
+					};
+					2175C02A1CCC70F600D70CF1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2175C0061CCC70F600D70CF1;
+					};
+				};
+			};
+			buildConfigurationList = 2175C0021CCC70F600D70CF1 /* Build configuration list for PBXProject "DJRouter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2175BFFE1CCC70F600D70CF1;
+			productRefGroup = 2175C0081CCC70F600D70CF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2175C0061CCC70F600D70CF1 /* DJRouter */,
+				2175C01F1CCC70F600D70CF1 /* DJRouterTests */,
+				2175C02A1CCC70F600D70CF1 /* DJRouterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2175C0051CCC70F600D70CF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2175C0171CCC70F600D70CF1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2175C01E1CCC70F600D70CF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2175C0291CCC70F600D70CF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2175C0031CCC70F600D70CF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2175C0491CCC9DED00D70CF1 /* DJRouterInit.m in Sources */,
+				2175C0461CCC9D9600D70CF1 /* DJPushViewController.m in Sources */,
+				2175C04C1CCC9F0B00D70CF1 /* DJPresentViewController.m in Sources */,
+				2175C0401CCC727900D70CF1 /* DJRouter.m in Sources */,
+				2175C0431CCC80A700D70CF1 /* UIViewController+DJRouter.m in Sources */,
+				2175C0121CCC70F600D70CF1 /* ViewController.m in Sources */,
+				2175C00F1CCC70F600D70CF1 /* AppDelegate.m in Sources */,
+				2175C00C1CCC70F600D70CF1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2175C01C1CCC70F600D70CF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2175C0251CCC70F600D70CF1 /* DJRouterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2175C0271CCC70F600D70CF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2175C0301CCC70F600D70CF1 /* DJRouterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2175C0221CCC70F600D70CF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2175C0061CCC70F600D70CF1 /* DJRouter */;
+			targetProxy = 2175C0211CCC70F600D70CF1 /* PBXContainerItemProxy */;
+		};
+		2175C02D1CCC70F600D70CF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2175C0061CCC70F600D70CF1 /* DJRouter */;
+			targetProxy = 2175C02C1CCC70F600D70CF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2175C0321CCC70F600D70CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2175C0331CCC70F600D70CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2175C0351CCC70F600D70CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DJRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.Jergo.DJRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2175C0361CCC70F600D70CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DJRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.Jergo.DJRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2175C0381CCC70F600D70CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DJRouterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.Jergo.DJRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJRouter.app/DJRouter";
+			};
+			name = Debug;
+		};
+		2175C0391CCC70F600D70CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DJRouterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.Jergo.DJRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJRouter.app/DJRouter";
+			};
+			name = Release;
+		};
+		2175C03B1CCC70F600D70CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DJRouterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.Jergo.DJRouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DJRouter;
+			};
+			name = Debug;
+		};
+		2175C03C1CCC70F600D70CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DJRouterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.Jergo.DJRouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DJRouter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2175C0021CCC70F600D70CF1 /* Build configuration list for PBXProject "DJRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2175C0321CCC70F600D70CF1 /* Debug */,
+				2175C0331CCC70F600D70CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2175C0341CCC70F600D70CF1 /* Build configuration list for PBXNativeTarget "DJRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2175C0351CCC70F600D70CF1 /* Debug */,
+				2175C0361CCC70F600D70CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2175C0371CCC70F600D70CF1 /* Build configuration list for PBXNativeTarget "DJRouterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2175C0381CCC70F600D70CF1 /* Debug */,
+				2175C0391CCC70F600D70CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2175C03A1CCC70F600D70CF1 /* Build configuration list for PBXNativeTarget "DJRouterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2175C03B1CCC70F600D70CF1 /* Debug */,
+				2175C03C1CCC70F600D70CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2175BFFF1CCC70F600D70CF1 /* Project object */;
+}

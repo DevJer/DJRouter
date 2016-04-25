@@ -7,11 +7,13 @@
 //
 
 #import "DJPushViewController.h"
+#import "UIViewController+DJRouter.h"
 
 @implementation DJPushViewController
 
 - (void)viewDidLoad {
     [self.view setBackgroundColor:[UIColor redColor]];
+    NSLog(@"%@", self.params);
 }
 
 @end

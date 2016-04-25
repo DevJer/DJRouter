@@ -38,11 +38,11 @@
 }
 
 - (void)button1Click {
-    [[DJRouter shared] pushViewControllerWithRoute:@"myapp://pushview"];
+    [[DJRouter shared] pushViewControllerWithRoute:@"myapp://pushview/2233"];
 }
 
 - (void)button2Click {
-    [[DJRouter shared] presentViewControllerWithRoute:@"myapp://presentview"];
+    [[DJRouter shared] presentViewControllerWithRoute:@"myapp://presentview/hello?id=12&name=world" from:nil wrap:YES];
 }
 
 - (void)didReceiveMemoryWarning {

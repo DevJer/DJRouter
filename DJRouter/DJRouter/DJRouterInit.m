@@ -16,8 +16,8 @@
 
 + (void)initRouter {
     [[DJRouter shared] map:@"myapp://mainview" toControllerClass:[ViewController class]];
-    [[DJRouter shared] map:@"myapp://pushview" toControllerClass:[DJPushViewController class]];
-    [[DJRouter shared] map:@"myapp://presentview" toControllerClass:[DJPresentViewController class]];
+    [[DJRouter shared] map:@"myapp://pushview/:id" toControllerClass:[DJPushViewController class]];
+    [[DJRouter shared] map:@"myapp://presentview/:test" toControllerClass:[DJPresentViewController class]];
 }
 
 @end

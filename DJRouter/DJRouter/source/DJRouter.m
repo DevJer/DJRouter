@@ -153,7 +153,7 @@
             } else if ([key hasPrefix:@":"]) {
                 found = YES;
                 subRoutes = subRoutes[key];
-                params[[key substringFromIndex:1]] = pathComponent;
+                params[[key substringFromIndex:1]] = [pathComponent componentsSeparatedByString:@"?"][0];
                 break;
             }
         }

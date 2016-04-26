@@ -33,7 +33,12 @@
     [button2 addTarget:self action:@selector(button2Click) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button2];
     
-    
+    UIButton *button3 = [UIButton buttonWithType:UIButtonTypeCustom];
+    button3.frame = CGRectMake(10, 300, 100, 40);
+    [button3 setBackgroundColor:[UIColor orangeColor]];
+    [button3 setTitle:@"block" forState:UIControlStateNormal];
+    [button3 addTarget:self action:@selector(button3Click) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button3];
     
 }
 
@@ -43,6 +48,11 @@
 
 - (void)button2Click {
     [[DJRouter shared] presentViewControllerWithRoute:@"myapp://presentview/hello?id=12&name=world" from:nil wrap:YES];
+}
+
+- (void)button3Click {
+    NSString *str = (NSString*)[[DJRouter shared] callBlock:@"myapp://blockRtnString/hello"];
+    NSLog(@"%@", str);
 }
 
 - (void)didReceiveMemoryWarning {

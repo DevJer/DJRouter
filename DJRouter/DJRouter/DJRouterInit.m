@@ -18,6 +18,9 @@
     [[DJRouter shared] map:@"myapp://mainview" toControllerClass:[ViewController class]];
     [[DJRouter shared] map:@"myapp://pushview/:id" toControllerClass:[DJPushViewController class]];
     [[DJRouter shared] map:@"myapp://presentview/:test" toControllerClass:[DJPresentViewController class]];
+    [[DJRouter shared] map:@"myapp://blockRtnString/:name" toBlock:^id(NSDictionary *params) {
+        return [NSString stringWithFormat:@"%@",params];
+    }];
 }
 
 @end

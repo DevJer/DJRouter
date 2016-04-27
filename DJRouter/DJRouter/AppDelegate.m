@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "DJRouterInit.h"
+#import "DJNavigationController.h"
 #import "DJRouter.h"
 
 @interface AppDelegate ()
@@ -22,7 +23,7 @@
     [DJRouterInit initRouter];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     UIViewController *mainViewCtroller = [[DJRouter shared]matchController:@"myapp://mainview"];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:mainViewCtroller];
+    DJNavigationController *nav = [[DJNavigationController alloc] initWithRootViewController:mainViewCtroller];
     [[DJRouter shared] setNavigationController:nav];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];

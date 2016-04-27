@@ -96,7 +96,12 @@
     UIViewController *viewController = [self matchController:route];
     UIViewController *fromCtl = ctl != nil ? ctl : [UIViewController topMostViewController];
     if (wrap) {
-        UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:viewController];
+        UINavigationController * nav = nil;
+        if (self.navigationController == nil) {
+            nav = [[UINavigationController alloc]initWithRootViewController:viewController];
+        } else {
+            nav = [[self.navigationController.class alloc] initWithRootViewController:viewController];
+        }
         [fromCtl presentViewController:nav animated:animated completion:block];
     } else {
         [fromCtl presentViewController:viewController animated:animated completion:block];

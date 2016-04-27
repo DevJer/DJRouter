@@ -51,7 +51,7 @@
 }
 
 - (void)button3Click {
-    NSString *str = (NSString*)[[DJRouter shared] callBlock:@"myapp://blockRtnString/hello"];
+    NSString *str = (NSString*)[[DJRouter shared] callBlock:@"myapp://blockRtnString/hello?id=22"];
     NSLog(@"%@", str);
 }
 

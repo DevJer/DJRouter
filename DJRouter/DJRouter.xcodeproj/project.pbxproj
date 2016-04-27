@@ -18,6 +18,7 @@
 		2175C0461CCC9D9600D70CF1 /* DJPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2175C0451CCC9D9600D70CF1 /* DJPushViewController.m */; };
 		2175C0491CCC9DED00D70CF1 /* DJRouterInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2175C0481CCC9DED00D70CF1 /* DJRouterInit.m */; };
 		2175C04C1CCC9F0B00D70CF1 /* DJPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2175C04B1CCC9F0B00D70CF1 /* DJPresentViewController.m */; };
+		462B59E61CD0FE5700ECECE6 /* DJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 462B59E51CD0FE5700ECECE6 /* DJNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		2175C0481CCC9DED00D70CF1 /* DJRouterInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJRouterInit.m; sourceTree = "<group>"; };
 		2175C04A1CCC9F0B00D70CF1 /* DJPresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJPresentViewController.h; sourceTree = "<group>"; };
 		2175C04B1CCC9F0B00D70CF1 /* DJPresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJPresentViewController.m; sourceTree = "<group>"; };
+		462B59E41CD0FE5700ECECE6 /* DJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJNavigationController.h; sourceTree = "<group>"; };
+		462B59E51CD0FE5700ECECE6 /* DJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 				2175C0451CCC9D9600D70CF1 /* DJPushViewController.m */,
 				2175C04A1CCC9F0B00D70CF1 /* DJPresentViewController.h */,
 				2175C04B1CCC9F0B00D70CF1 /* DJPresentViewController.m */,
+				462B59E41CD0FE5700ECECE6 /* DJNavigationController.h */,
+				462B59E51CD0FE5700ECECE6 /* DJNavigationController.m */,
 				2175C0161CCC70F600D70CF1 /* Assets.xcassets */,
 				2175C01B1CCC70F600D70CF1 /* Info.plist */,
 				2175C00A1CCC70F600D70CF1 /* Supporting Files */,
@@ -296,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2175C0491CCC9DED00D70CF1 /* DJRouterInit.m in Sources */,
+				462B59E61CD0FE5700ECECE6 /* DJNavigationController.m in Sources */,
 				2175C0461CCC9D9600D70CF1 /* DJPushViewController.m in Sources */,
 				2175C04C1CCC9F0B00D70CF1 /* DJPresentViewController.m in Sources */,
 				2175C0401CCC727900D70CF1 /* DJRouter.m in Sources */,
@@ -425,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DJRouter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.Jergo.DJRouter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DJRouter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.Jergo.DJRouter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +515,7 @@
 				2175C0361CCC70F600D70CF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2175C0371CCC70F600D70CF1 /* Build configuration list for PBXNativeTarget "DJRouterTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +524,7 @@
 				2175C0391CCC70F600D70CF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2175C03A1CCC70F600D70CF1 /* Build configuration list for PBXNativeTarget "DJRouterUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +533,7 @@
 				2175C03C1CCC70F600D70CF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
